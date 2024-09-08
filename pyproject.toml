@@ -1,0 +1,17 @@
+[project]
+name = "typing-checker-comparison"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [{ name = "KuligKamil", email = "kamil.marek.kulig@gmail.com" }]
+dependencies = ["mypy>=1.11.2", "pyright>=1.1.379"]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = { text = "MIT" }
+
+
+[tool.pdm]
+distribution = false
+
+
+[tool.pyright]
+strict = ['.']
